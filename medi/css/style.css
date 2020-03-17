@@ -2807,14 +2807,14 @@ h3 {
   width: 100% !important;
 }
 
+
+
+
 /* line 1, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_department.scss */
 .depertment_area {
-  background-image: url(../img/banner/department.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  background-color: #f1f4f6;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 @media (max-width: 767px) {
