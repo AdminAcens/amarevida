@@ -574,6 +574,10 @@ h3 {
   outline: none;
 }
 
+.a {
+  cursor: default;
+}
+
 /* line 87, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_btn.scss */
 .boxed-btn6 {
   color: #fff;
@@ -594,6 +598,7 @@ h3 {
   transition: 0.5s;
   cursor: pointer;
   background-position: 100% 0;
+  margin-top: 50px;
 }
 
 /* line 102, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_btn.scss */
@@ -2499,10 +2504,14 @@ h3 {
   border-color: transparent;
 }
 
+.container_footer {
+  display: flex;
+  justify-content: center;
+}
+
 /* line 256, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
 .bordered_1px {
-  border-top: 1px solid #4e5a69;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
   display: block;
   overflow: hidden;
   width: 100%;
@@ -3368,7 +3377,7 @@ h3 {
 
 /* line 4, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_emergency_contact.scss */
 .Emergency_contact::before, .Emergency_contact::after {
-  background-image: url(../img/banner/emergency_1.jpg);
+  background-image: url(../../imagens/contato1.jpg);
   content: '';
   width: 50%;
   top: 0;
@@ -3387,7 +3396,7 @@ h3 {
 .Emergency_contact::after {
   right: 0;
   top: 0;
-  background-image: url(../img/banner/emergency_2.jpg);
+  background-image: url(../../imagens/contato2.jpg);
 }
 
 /* line 22, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_emergency_contact.scss */
@@ -3465,10 +3474,27 @@ h3 {
 /* line 70, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_emergency_contact.scss */
 .Emergency_contact .Emergency_contact_inner .single_emergency .info span {
   display: block;
-  font-size: 18px;
-  color: #fff;
+  font-size: 25px;
+  color: yellow;
   margin-bottom: 4px;
   font-family: "Work Sans", sans-serif;
+  cursor: default;
+  margin-bottom: 20px;
+}
+
+.telefone {
+  font-size: 60px;
+}
+
+.instagram {
+  font-weight: 500 !important;
+  font-size: 80px !important;
+  margin-top: 20px;
+  color: lightyellow;
+}
+
+.instagram:hover {
+  color: white;
 }
 
 @media (max-width: 767px) {
@@ -3481,8 +3507,9 @@ h3 {
 /* line 80, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_emergency_contact.scss */
 .Emergency_contact .Emergency_contact_inner .single_emergency .info h3 {
   color: #fff;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 600;
+  cursor: default;
 }
 
 @media (max-width: 767px) {
@@ -3540,15 +3567,24 @@ h3 {
   }
 }
 
+.section_title h3 {
+  font-size: 50px !important;
+  margin-bottom: 40px;
+}
+
 /* line 14, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_quality.scss */
 .quality_area .single_quality {
-  border: 3px solid rgba(206, 243, 255, 0.2);
+  border: 3px solid lightblue;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
   padding: 70px 45px 63px 45px;
   margin-bottom: 30px;
   text-align: center;
+}
+
+.quality_area .single_quality:hover {
+  border: 3px solid #59aad7;
 }
 
 /* line 20, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_quality.scss */
@@ -5085,6 +5121,10 @@ h6 {
 /* line 1099, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_elements.scss */
 .switch-wrap {
   margin-bottom: 10px;
+}
+
+.p_footer {
+  color: lightyellow;
 }
 
 /* Start Blog Area css
