@@ -9,6 +9,7 @@
 
 #navigation li a {
   font-size: 20px;
+  cursor: pointer;
 }
 
 #navigation li a:hover{
