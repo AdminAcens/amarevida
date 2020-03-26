@@ -112,6 +112,7 @@ body {
   font-family: "Work Sans", sans-serif;
   font-weight: normal;
   font-style: normal;
+  width: 100%;
 }
 
 /* line 13, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/theme-default.scss */
@@ -2804,6 +2805,37 @@ h3 {
   border-bottom: 1px solid rgba(0, 0, 0, 0.42);
 }
 
+.ajudar {
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.single_emergency {
+  width: 500px !important;
+}
+
+@media (max-width: 1190px) {
+  .single_emergency {
+    width: 400px !important;
+  }
+}
+
+@media (max-width: 960px) {
+  .single_emergency {
+    width: 200px !important;
+  }
+  .info h3 {
+    font-size: 30px !important !important;
+  }
+}
+
+
+
 /* line 216, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_bradcam.scss */
 .gj-datepicker-md [role="right-icon"], .gj-timepicker-md [role="right-icon"] {
   position: absolute;
@@ -2872,18 +2904,6 @@ h3 {
     grid-template-columns: repeat(2, 440px);
     align-items: center;
   }
-
-  .Emergency_contact .Emergency_contact_inner .single_emergency .info h3 {
-    font-size: 30px !important; 
-  }
-
-  .justify-content-center {
-    width: 100% !important;
-  }
-
-  .row {
-    width: 100%;
-  } 
 
   .single_emergency {
     margin-left: 80px;
@@ -3313,7 +3333,6 @@ h3 {
 .expert_doctors_area {
   padding-top: 190px;
   padding-bottom: 130px;
-  width: 100%;
 }
 
 @media (max-width: 767px) {
@@ -3542,6 +3561,11 @@ h3 {
     font-size: 45px;
     margin-right: 10px;
   }
+
+  .single_emergency {
+    width: 10px !important;
+    margin-left: 0 !important;
+  }
 }
 
 /* line 70, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_emergency_contact.scss */
@@ -3611,9 +3635,33 @@ h3 {
     -ms-flex-pack: start !important;
     justify-content: start !important;
     margin-top: -140px;
-    margin-left: 550px;
+    margin-left: 440px;
   }
-
+  .info h3 {
+    font-size: 30px !important !important;
+  }
+  .telefone {
+    font-size: 30px;
+  }
+  .Emergency_contact_inner {
+    height: 500px !important;
+  }
+  .single_1 {
+    margin-top: 20px;
+    position: absolute !important;
+  }
+  .single_2 {
+    margin-top: 20px !important;
+  }
+  .coluna {
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  .p_footer {
+    font-size: 14px !important;
+  }
   .container_ajude {
     margin: 500px !important;
   }
