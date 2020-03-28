@@ -3540,7 +3540,7 @@ h3 {
 
 /* line 4, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_emergency_contact.scss */
 .Emergency_contact::before, .Emergency_contact::after {
-  background-image: url(../../imagens/contato1.jpg);
+  background-image: url(../imagens/contato1.jpg);
   content: '';
   width: 50%;
   top: 0;
@@ -3559,7 +3559,7 @@ h3 {
 .Emergency_contact::after {
   right: 0;
   top: 0;
-  background-image: url(../../imagens/contato2.jpg);
+  background-image: url(../imagens/contato2.jpg);
 }
 
 /* line 22, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_emergency_contact.scss */
