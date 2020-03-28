@@ -43,6 +43,12 @@
   align-items: center;
 }
 
+.section_title h3 {
+  font-size: 50px !important;
+  margin-bottom: 40px;
+}
+
+
 @media (max-width: 768px) {
   .container_contact {
     display: flex;
@@ -1033,7 +1039,7 @@ h3 {
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 36, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img img {
-    width: 70px;
+    width: 90px;
   }
 }
 
@@ -2866,7 +2872,7 @@ h3 {
 
 .expert_doctors_area img {
   max-width: 400px;
-  min-width: 400px;
+  /*min-width: 400px;*/
   border-radius: 3px;
   border: 2px solid lightgray;
 }
@@ -2914,21 +2920,25 @@ h3 {
   size: 500px;
 }
 
+
 @media (max-width: 768px) {
   /* line 1, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_department.scss */
   .depertment_area {
     padding-top: 80px;
     padding-bottom: 80px;
   }
+  .imagens_galeria {
+    width: 200px;
+  }
 
   .expert_doctors_area {
-    padding-top: 50px !important;
+    padding-top: 0 !important;
     padding-bottom: 50px !important;
-    margin-left: 180px;
     display: grid;
     grid-template-columns: repeat(1, 440px);
-    grid-template-rows: 400px 400px 400px;
+    grid-template-rows: 350px 350px 350px;
     align-items: center;
+    margin-left: 195px !important;
   }
 
   .ajudar {
@@ -2948,6 +2958,7 @@ h3 {
   }
 
 }
+
 
 @media (max-width: 990px) {
 
@@ -2973,9 +2984,69 @@ h3 {
     text-align: left !important;
     margin-top: 30px;
   }
-
  
 }
+
+@media (max-width: 426px) {
+  .expert_doctors_area {
+    margin-left: 10px !important;
+  }
+  .single_emergency {
+    width: 0 !important;
+  }
+  .insta {
+    margin-left: 150px;
+  }
+  .tel {
+    margin-left: 90px !important;
+  }
+  .info span{
+    font-size: 20px !important;
+  }
+  .info h3 {
+    font-size: 40px !important;
+  }
+  .p_footer {
+    font-size: 11px;
+  }
+  .header-area .main-header-area .logo-img img {
+    width: 90px;
+  }
+}
+
+@media (max-width: 376px) {
+  .expert_doctors_area img {
+    max-width: 350px !important;
+  }
+  .p_footer {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 322px) {
+  .expert_doctors_area img {
+    max-width: 200px !important;
+  }
+  .expert_doctors_area {
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    margin-left: 60px !important;
+  }
+  .section_title h3 {
+    font-size: 40px !important;
+  }
+  .insta {
+    margin-left: 80px;
+  }
+  .tel {
+    margin-left: 20px !important;
+  }
+  .p_footer {
+    font-size: 16px;
+  }
+}
+
+
 
 /* line 23, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_department.scss */
 .depertment_area .dept_main_info .dept_thumb img {
@@ -3665,6 +3736,9 @@ h3 {
   .container_ajude {
     margin: 500px !important;
   }
+  .dept_thumb img {
+    size: 330px !important;
+  }
 }
 
 /* line 1, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_quality.scss */
@@ -3693,10 +3767,6 @@ h3 {
   }
 }
 
-.section_title h3 {
-  font-size: 50px !important;
-  margin-bottom: 40px;
-}
 
 /* line 14, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_quality.scss */
 .quality_area .single_quality {
