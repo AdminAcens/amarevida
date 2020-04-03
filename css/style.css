@@ -783,6 +783,7 @@ h3 {
   color: #191d34;
   position: relative;
   margin-top: 70px;
+  margin-bottom: 40px !important;
 }
 
 @media (max-width: 767px) {
@@ -2989,6 +2990,11 @@ h3 {
 }
 
 @media (max-width: 426px) {
+  .Emergency_contact::before, .Emergency_contact::after {
+  background-image: url() !important;
+}
+
+
   .expert_doctors_area {
     margin-left: 10px !important;
   }
